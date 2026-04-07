@@ -32,7 +32,7 @@
 ### 使用技術
 <!-- 使用的語言、框架、工具等 -->
 語言部份主要以python實作，假如有處理到python執行效率較低的部分例如遞迴，可能那個部分會以C++實作<br>
-工具預計使用Visual Studio Code和GitHub，可能會用到Matplotlib、NumPy、Rectpack等函式庫
+工具使用Visual Studio Code，可能會用到Matplotlib、NumPy、Rectpack等函式庫
 ### 時程規劃
 <!-- 各週預計完成的進度 -->
 week8-10<br>
