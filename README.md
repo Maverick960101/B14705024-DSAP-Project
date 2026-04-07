@@ -1,4 +1,4 @@
-# [二維矩形空間裝箱與價值最大化研究]
+# [二維矩形背包問題 2D Rectengular Knapsack Problem]
 
 ## Proposal Report
 
@@ -30,7 +30,7 @@
 工具預計使用Visual Studio Code和GitHub，可能會用到Matplotlib、NumPy、Rectpack等函式庫
 ### 時程規劃
 <!-- 各週預計完成的進度 -->
-week8-9 不考慮價值，嘗試實作二維封裝問題(2D-packaging problem)，在給定的空間內放入物品，讓空間利用率達到最高<br>
+week8-9 不考慮價值，嘗試實作二維裝箱問題(2D-packaging problem)，在給定的空間內放入物品，讓空間利用率達到最高<br>
 week10-12 考慮各物品價值，並根據二維封裝問題得到的結果，實作一些基礎的演算法(譬如貪婪演算法)，使背包內的價值不算太差<br>
 week 13-15 嘗試實作一些進階的演算法，並與之前的基礎演算法比較，期許背包內價值能顯著提升
 
