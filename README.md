@@ -56,14 +56,14 @@ week 13-15<br>
 動態陣列 (Dynamic Arrays / Vectors)<br>
 儲存「待放入物品清單」與「已放置物品紀錄」， 方便進行排序。
 
-2. 幾何與排版演算法<br>
+2.幾何與排版演算法<br>
 碰撞偵測 (Collision Detection)：<br>
 利用座標邊界判定檢查兩個矩形是否重疊，確保物品不會重疊。
 
 啟發式放置演算法 (Placement Heuristics)：<br>
 如 Bottom-Left (BL) 或 MaxRects，決定物品進入背包後先放在哪裡。例如 BL 演算法會讓物品盡量往左下角靠攏，以留出連續的大空間。
 
-3. 優化與搜尋演算法<br>
+3.優化與搜尋演算法<br>
 貪婪演算法 (Greedy Algorithm)：<br>
 根據特定權重（如價值密度 V/A）進行降冪排序，依序嘗試置入。提供一個快速且不差的初步解。
 
