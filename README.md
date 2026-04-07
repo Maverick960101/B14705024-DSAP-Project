@@ -26,8 +26,8 @@
 三、比較不同演算法的結果，並從中挑選價值最高的組合
 
 3.視覺化<br>
-將結果用圖片輸出，並標示各物品編號和價值<br>
-計算空間利用率、平均單格價值等等
+一、將結果用圖片輸出，並標示各物品編號和價值<br>
+二、計算空間利用率、平均單格價值等等
 
 ### 使用技術
 <!-- 使用的語言、框架、工具等 -->
@@ -50,27 +50,27 @@ week 13-15<br>
 ### 與課程的關聯
 <!-- 你的專題可能涉及哪些資料結構或演算法概念？為什麼？ -->
 1.資料結構<br>
-類別與物件(Class / Objects)：<br>
+一、類別與物件(Class / Objects)：<br>
 封裝矩形物品的屬性，如寬度、高度、價值、座標及旋轉狀態，用於管理不同物件的狀態。
 
-動態陣列 (Dynamic Arrays / Vectors)<br>
+二、動態陣列 (Dynamic Arrays / Vectors)<br>
 儲存「待放入物品清單」與「已放置物品紀錄」， 方便進行排序。
 
-空閒矩形清單 (Free Rectangles List)<br>
+三、空閒矩形清單 (Free Rectangles List)<br>
 用來儲存背包中「尚未被佔用的矩形區域」，每次放新東西時，程式可以去這個清單找「放得下的空格」，而不是亂塞。
 
 2.幾何與排版演算法<br>
-碰撞偵測 (Collision Detection)：<br>
+一、碰撞偵測 (Collision Detection)：<br>
 利用座標邊界判定檢查兩個矩形是否重疊，確保物品不會重疊。
 
-啟發式放置演算法 (Placement Heuristics)：<br>
+二、啟發式放置演算法 (Placement Heuristics)：<br>
 如 Bottom-Left (BL) 或 MaxRects，決定物品進入背包後先放在哪裡。例如 BL 演算法會讓物品盡量往左下角靠攏，以留出連續的大空間。
 
 3.優化與搜尋演算法<br>
-貪婪演算法 (Greedy Algorithm)：<br>
+一、貪婪演算法 (Greedy Algorithm)：<br>
 根據特定權重（如價值密度 V/A）進行降冪排序，依序嘗試置入。提供一個快速且不差的初步解。
 
-進階（如遺傳演算法 Genetic Algorithm, 選位）：<br>
+二、進階（如遺傳演算法 Genetic Algorithm, 選位）：<br>
 用更進階的方法嘗試尋找最佳的「物品放入順序」。挑戰比貪婪演算法更高的總價值，展現演算法的優化能力。
 ## Prototype Report
 
