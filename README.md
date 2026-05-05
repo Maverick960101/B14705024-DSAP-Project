@@ -1,4 +1,4 @@
-# [二維矩形背包問題 2D Rectengular Knapsack Problem]
+# 二維矩形背包問題 2D Rectengular Knapsack Problem
 
 ## Proposal Report
 
