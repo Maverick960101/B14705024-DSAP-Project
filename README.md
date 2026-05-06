@@ -35,7 +35,7 @@
 工具使用Visual Studio Code，可能會用到Matplotlib、NumPy、Rectpack等函式庫
 
 ### prototype預計可實作內容
-給定一個m*n矩形背包，以及若干個大小各異的矩形物品(長寬皆不大於min(m,n))，判斷是否能全部放入背包裡
+給定一個m*n矩形背包，以及若干個大小各異的矩形物品(長寬皆不大於min(m,n))，用最基礎的架子演算法判斷是否能全部放入背包裡
 
 ## Prototype Report
 
