@@ -34,8 +34,8 @@
 語言部份主要以python實作，假如有處理到python執行效率較低的部分例如遞迴，可能那個部分會以C++實作<br>
 工具使用Visual Studio Code，可能會用到Matplotlib、NumPy、Rectpack等函式庫
 
-### prototype預計可實作內容
-給定一個m*n矩形背包，以及若干個大小各異的矩形物品(長寬皆不大於min(m,n))，用最基礎的架子演算法判斷是否能全部放入背包裡
+### prototype預計可驗證內容
+給定一個m*n矩形背包，以及若干個大小各異的矩形物品(長寬皆不大於min(m,n))，用最基礎的FFDH架子演算法判斷是否能全部放入背包裡
 
 ## Prototype Report
 
